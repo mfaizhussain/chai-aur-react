@@ -11,8 +11,10 @@ function App() {
 //  let counter = 5
  const addValue = () => {
   // counter = counter + 1
-  if()
-  faizCounter(counter + 1)
+  if( count <= 20){
+
+    faizCounter(counter + 1)
+  }
   console.log("Clicked", counter);
   
  }
